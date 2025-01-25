@@ -1,27 +1,47 @@
-# Citizen-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Citizen Magazine</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="container">
-    <h1>Citizen Magazine</h1>
-    <div class="image-container">
-      <img src="citizen.jpg" alt="Citizen Magazine Cover">
-    </div>
-    <div class="description">
-      <h2>An Incomplete Dream</h2>
-      <p>
-        Once there lived a rich farmer in a remote village of Nepal. He lived happily with his three sons and five daughters. Gradually, they got married one by one and left the home. Only the youngest son lived with his father...
-      </p>
-    </div>
-  </div>
-</body>
-</html>
+# Citizen-
+/* Basic styling for the website */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
 
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.description {
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.description h2 {
+  color: #555;
+}
 <!DOCTYPE html>
 <html lang="en">
 <head>
